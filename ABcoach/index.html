@@ -50,7 +50,7 @@
     <!-- Preloading images-->
     <link rel="preload" as="image" href="img/logo.jpg"/>
     <!-- Preloading fonts-->
-    <script src="../js/webfont-loaded.js"></script>
+    <script src="js/webfont-loaded.js"></script>
     <link rel="preload" href="/fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="crossorigin"/>
     <link rel="preload" href="/fonts/Montserrat/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="crossorigin"/>
     <link rel="preload" href="/fonts/Montserrat/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="crossorigin"/>
@@ -59,7 +59,7 @@
     <!-- Preload Styles-->
     <style>body{opacity:0;overflow-x:hidden;} html{background-color: #101942;}</style>
     <link href="css/style.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <script>!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+    <script>!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("loadcss")||(o.setAttribute("loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
   </head>
   <body class="is-home">
     <!-- [if lte IE 9]
@@ -145,9 +145,9 @@
               <div class="col-lg-2 col-md-4 col-12 mt-sm-5 mt-md-0">
                 <div class="partner__content_icon-box">
                   <picture style="width:120px;height:85px;">
-                    <source type="image/webp" data-srcset="../img/Image_11.webp"/>
-                    <source data-srcset="../img/Image_11-middle.png, ../img/Image_11.png 2x, ../img/Image_11@2x.png 3x" media="(max-width: 992px)"/>
-                    <source data-srcset="../img/Image_11-small.png, ../img/Image_11-middle.png 2x, ../img/Image_11.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_11.png" data-srcset="../img/Image_11@2.png 2x, ../img/Image_11@3x.png 3x" alt="Image_11" class="lazy img"/>
+                    <source type="image/webp" srcset="img/Image_11.webp"/>
+                    <source srcset="img/Image_11-middle.png, ../img/Image_11.png 2x, ../img/Image_11@2x.png 3x" media="(max-width: 992px)"/>
+                    <source srcset="img/Image_11-small.png, ../img/Image_11-middle.png 2x, ../img/Image_11.png 3x" media="(max-width: 500px)"/><img src="img/Image_11.png" srcset="img/Image_11@2.png 2x, ../img/Image_11@3x.png 3x" alt="Image_11" class="lazy img"/>
                   </picture>
                 </div>
                 <p class="partner__content_text f-text">Российский университет <span class="d-block">дружбы народов</span></p>
@@ -155,9 +155,9 @@
               <div class="col-lg-2 col-md-4 col-12 mt-sm-5 mt-md-0">
                 <div class="partner__content_icon-box">
                   <picture style="width:120px;height:99px;">
-                    <source type="image/webp" data-srcset="../img/Image_13.webp"/>
-                    <source data-srcset="../img/Image_13-middle.png, ../img/Image_13.png 2x, ../img/Image_13@2x.png 3x" media="(max-width: 992px)"/>
-                    <source data-srcset="../img/Image_13-small.png, ../img/Image_13-middle.png 2x, ../img/Image_13.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_13.png" data-srcset="../img/Image_13@2.png 2x, ../img/Image_13@3x.png 3x" alt="Image_13" class="lazy img"/>
+                    <source type="image/webp" srcset="img/Image_13.webp"/>
+                    <source srcset="img/Image_13-middle.png, ../img/Image_13.png 2x, ../img/Image_13@2x.png 3x" media="(max-width: 992px)"/>
+                    <source srcset="img/Image_13-small.png, ../img/Image_13-middle.png 2x, ../img/Image_13.png 3x" media="(max-width: 500px)"/><img src="img/Image_13.png" srcset="img/Image_13@2.png 2x, ../img/Image_13@3x.png 3x" alt="Image_13" class="lazy img"/>
                   </picture>
                 </div>
                 <p class="partner__content_text f-text">ЕCA rus <span class="d-block">(Германия)</span></p>
@@ -165,9 +165,9 @@
               <div class="col-lg-2 col-md-4 col-12 mt-sm-5 mt-md-0">
                 <div class="partner__content_icon-box">
                   <picture style="width:259px;height:75px;">
-                    <source type="image/webp" data-srcset="../img/Image_14.webp"/>
-                    <source data-srcset="../img/Image_14-middle.png, ../img/Image_14.png 2x, ../img/Image_14@2x.png 3x" media="(max-width: 992px)"/>
-                    <source data-srcset="../img/Image_14-small.png, ../img/Image_14-middle.png 2x, ../img/Image_14.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_14.png" data-srcset="../img/Image_14@2.png 2x, ../img/Image_14@3x.png 3x" alt="Image_14" class="lazy img"/>
+                    <source type="image/webp" srcset="img/Image_14.webp"/>
+                    <source srcset="img/Image_14-middle.png, ../img/Image_14.png 2x, ../img/Image_14@2x.png 3x" media="(max-width: 992px)"/>
+                    <source srcset="img/Image_14-small.png, ../img/Image_14-middle.png 2x, ../img/Image_14.png 3x" media="(max-width: 500px)"/><img src="img/Image_14.png" srcset="img/Image_14@2.png 2x, ../img/Image_14@3x.png 3x" alt="Image_14" class="lazy img"/>
                   </picture>
                 </div>
                 <p class="partner__content_text f-text">Association for <span class="d-block">coaching</span><span class="d-block">(Великобритания)</span></p>
@@ -175,9 +175,9 @@
               <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
                 <div class="partner__content_icon-box">
                   <picture style="width:172px;height:74px;">
-                    <source type="image/webp" data-srcset="../img/Image_16.webp"/>
-                    <source data-srcset="../img/Image_16-middle.png, ../img/Image_16.png 2x, ../img/Image_16@2x.png 3x" media="(max-width: 992px)"/>
-                    <source data-srcset="../img/Image_16-small.png, ../img/Image_16-middle.png 2x, ../img/Image_16.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_16.png" data-srcset="../img/Image_16@2.png 2x, ../img/Image_16@3x.png 3x" alt="Image_16" class="lazy img"/>
+                    <source type="image/webp" srcset="img/Image_16.webp"/>
+                    <source srcset="img/Image_16-middle.png, ../img/Image_16.png 2x, ../img/Image_16@2x.png 3x" media="(max-width: 992px)"/>
+                    <source srcset="img/Image_16-small.png, ../img/Image_16-middle.png 2x, ../img/Image_16.png 3x" media="(max-width: 500px)"/><img src="img/Image_16.png" srcset="img/Image_16@2.png 2x, ../img/Image_16@3x.png 3x" alt="Image_16" class="lazy img"/>
                   </picture>
                 </div>
                 <p class="partner__content_text f-text">Mental Research <span class="d-block">Institut </span><span class="d-block">(США)</span></p>
@@ -185,9 +185,9 @@
               <div class="col-lg-2 col-md-6 mt-5 mt-lg-0">
                 <div class="partner__content_icon-box">
                   <picture style="width:98px;height:98px;">
-                    <source type="image/webp" data-srcset="../img/Image_333.webp"/>
-                    <source data-srcset="../img/Image_333-middle.png, ../img/Image_333.png 2x, ../img/Image_333@2x.png 3x" media="(max-width: 992px)"/>
-                    <source data-srcset="../img/Image_333-small.png, ../img/Image_333-middle.png 2x, ../img/Image_333.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_333.png" data-srcset="../img/Image_333@2.png 2x, ../img/Image_333@3x.png 3x" alt="Image_333" class="lazy img"/>
+                    <source type="image/webp" srcset="img/Image_333.webp"/>
+                    <source srcset="img/Image_333-middle.png, ../img/Image_333.png 2x, ../img/Image_333@2x.png 3x" media="(max-width: 992px)"/>
+                    <source srcset="img/Image_333-small.png, ../img/Image_333-middle.png 2x, ../img/Image_333.png 3x" media="(max-width: 500px)"/><img src="img/Image_333.png" srcset="img/Image_333@2.png 2x, ../img/Image_333@3x.png 3x" alt="Image_333" class="lazy img"/>
                   </picture>
                 </div>
                 <p class="partner__content_text f-text">Акредитована <span class="d-block">в International </span><span class="d-block">Association of Coaching </span><span class="d-block">Institutes (Германия)</span></p>
@@ -208,9 +208,9 @@
                 <div class="advantages__content_block">
                   <div class="advantages__content_icon-box">
                     <picture style="width:183px;height:149px;" class="advantages__content_icon">
-                      <source type="image/webp" data-srcset="../img/Image_305.webp"/>
-                      <source data-srcset="../img/Image_305-middle.png, ../img/Image_305.png 2x, ../img/Image_305@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/Image_305-small.png, ../img/Image_305-middle.png 2x, ../img/Image_305.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_305.png" data-srcset="../img/Image_305@2.png 2x, ../img/Image_305@3x.png 3x" alt="Image_305" class="lazy advantages__content_img"/>
+                      <source type="image/webp" srcset="img/Image_305.webp"/>
+                      <source srcset="img/Image_305-middle.png, ../img/Image_305.png 2x, ../img/Image_305@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/Image_305-small.png, ../img/Image_305-middle.png 2x, ../img/Image_305.png 3x" media="(max-width: 500px)"/><img src="img/Image_305.png" srcset="img/Image_305@2.png 2x, ../img/Image_305@3x.png 3x" alt="Image_305" class="lazy advantages__content_img"/>
                     </picture>
                   </div>
                   <p class="advantages__content_text f-text">Системное бизнес консультирование</p>
@@ -220,9 +220,9 @@
                 <div class="advantages__content_block">
                   <div class="advantages__content_icon-box">
                     <picture style="width:215px;height:147px;" class="advantages__content_icon">
-                      <source type="image/webp" data-srcset="../img/Image_306.webp"/>
-                      <source data-srcset="../img/Image_306-middle.png, ../img/Image_306.png 2x, ../img/Image_306@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/Image_306-small.png, ../img/Image_306-middle.png 2x, ../img/Image_306.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_306.png" data-srcset="../img/Image_306@2.png 2x, ../img/Image_306@3x.png 3x" alt="Image_306" class="lazy advantages__content_img"/>
+                      <source type="image/webp" srcset="img/Image_306.webp"/>
+                      <source srcset="img/Image_306-middle.png, ../img/Image_306.png 2x, ../img/Image_306@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/Image_306-small.png, ../img/Image_306-middle.png 2x, ../img/Image_306.png 3x" media="(max-width: 500px)"/><img src="img/Image_306.png" srcset="img/Image_306@2.png 2x, ../img/Image_306@3x.png 3x" alt="Image_306" class="lazy advantages__content_img"/>
                     </picture>
                   </div>
                   <p class="advantages__content_text f-text">Основы психологического консультирования</p>
@@ -232,9 +232,9 @@
                 <div class="advantages__content_block">
                   <div class="advantages__content_icon-box">
                     <picture style="width:137px;height:188px;" class="advantages__content_icon">
-                      <source type="image/webp" data-srcset="../img/Image_324.webp"/>
-                      <source data-srcset="../img/Image_324-middle.png, ../img/Image_324.png 2x, ../img/Image_324@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/Image_324-small.png, ../img/Image_324-middle.png 2x, ../img/Image_324.png 3x" media="(max-width: 500px)"/><img data-src="../img/Image_324.png" data-srcset="../img/Image_324@2.png 2x, ../img/Image_324@3x.png 3x" alt="Image_324" class="lazy advantages__content_img"/>
+                      <source type="image/webp" srcset="img/Image_324.webp"/>
+                      <source srcset="img/Image_324-middle.png, ../img/Image_324.png 2x, ../img/Image_324@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/Image_324-small.png, ../img/Image_324-middle.png 2x, ../img/Image_324.png 3x" media="(max-width: 500px)"/><img src="img/Image_324.png" srcset="img/Image_324@2.png 2x, ../img/Image_324@3x.png 3x" alt="Image_324" class="lazy advantages__content_img"/>
                     </picture>
                   </div>
                   <p class="advantages__content_text f-text">Нейрокоучинг детей и подростков</p>
@@ -256,9 +256,9 @@
                 <div class="documents__content_block">
                   <div class="documents__content_img">
                     <picture>
-                      <source type="image/webp" data-srcset="../img/dip1.webp"/>
-                      <source data-srcset="../img/dip1-middle.png, ../img/dip1.png 2x, ../img/dip1@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/dip1-small.png, ../img/dip1-middle.png 2x, ../img/dip1.png 3x" media="(max-width: 500px)"/><img data-src="../img/dip1.png" data-srcset="../img/dip1@2.png 2x, ../img/dip1@3x.png 3x" alt="dip1" class="lazy img"/>
+                      <source type="image/webp" srcset="img/dip1.webp"/>
+                      <source srcset="img/dip1-middle.png, ../img/dip1.png 2x, ../img/dip1@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/dip1-small.png, ../img/dip1-middle.png 2x, ../img/dip1.png 3x" media="(max-width: 500px)"/><img src="img/dip1.png" srcset="img/dip1@2.png 2x, ../img/dip1@3x.png 3x" alt="dip1" class="lazy img"/>
                     </picture>
                   </div>
                   <div class="documents__content_text">
@@ -271,9 +271,9 @@
                 <div class="documents__content_block">
                   <div class="documents__content_img">
                     <picture>
-                      <source type="image/webp" data-srcset="../img/dip2.webp"/>
-                      <source data-srcset="../img/dip2-middle.png, ../img/dip2.png 2x, ../img/dip2@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/dip2-small.png, ../img/dip2-middle.png 2x, ../img/dip2.png 3x" media="(max-width: 500px)"/><img data-src="../img/dip2.png" data-srcset="../img/dip2@2.png 2x, ../img/dip2@3x.png 3x" alt="dip2" class="lazy img"/>
+                      <source type="image/webp" srcset="img/dip2.webp"/>
+                      <source srcset="img/dip2-middle.png, ../img/dip2.png 2x, ../img/dip2@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/dip2-small.png, ../img/dip2-middle.png 2x, ../img/dip2.png 3x" media="(max-width: 500px)"/><img src="img/dip2.png" srcset="img/dip2@2.png 2x, ../img/dip2@3x.png 3x" alt="dip2" class="lazy img"/>
                     </picture>
                   </div>
                   <div class="documents__content_text">
@@ -286,9 +286,9 @@
                 <div class="documents__content_block">
                   <div class="documents__content_img">
                     <picture>
-                      <source type="image/webp" data-srcset="../img/dip3.webp"/>
-                      <source data-srcset="../img/dip3-middle.png, ../img/dip3.png 2x, ../img/dip3@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/dip3-small.png, ../img/dip3-middle.png 2x, ../img/dip3.png 3x" media="(max-width: 500px)"/><img data-src="../img/dip3.png" data-srcset="../img/dip3@2.png 2x, ../img/dip3@3x.png 3x" alt="dip3" class="lazy img"/>
+                      <source type="image/webp" srcset="img/dip3.webp"/>
+                      <source srcset="img/dip3-middle.png, ../img/dip3.png 2x, ../img/dip3@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/dip3-small.png, ../img/dip3-middle.png 2x, ../img/dip3.png 3x" media="(max-width: 500px)"/><img src="img/dip3.png" srcset="img/dip3@2.png 2x, ../img/dip3@3x.png 3x" alt="dip3" class="lazy img"/>
                     </picture>
                   </div>
                   <div class="documents__content_text">
@@ -301,9 +301,9 @@
                 <div class="documents__content_block">
                   <div style="min-height: 255px" class="documents__content_img">
                     <picture>
-                      <source type="image/webp" data-srcset="../img/dip4.webp"/>
-                      <source data-srcset="../img/dip4-middle.png, ../img/dip4.png 2x, ../img/dip4@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/dip4-small.png, ../img/dip4-middle.png 2x, ../img/dip4.png 3x" media="(max-width: 500px)"/><img data-src="../img/dip4.png" data-srcset="../img/dip4@2.png 2x, ../img/dip4@3x.png 3x" alt="dip4" class="lazy img"/>
+                      <source type="image/webp" srcset="img/dip4.webp"/>
+                      <source srcset="img/dip4-middle.png, ../img/dip4.png 2x, ../img/dip4@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/dip4-small.png, ../img/dip4-middle.png 2x, ../img/dip4.png 3x" media="(max-width: 500px)"/><img src="img/dip4.png" srcset="img/dip4@2.png 2x, ../img/dip4@3x.png 3x" alt="dip4" class="lazy img"/>
                     </picture>
                   </div>
                   <div class="documents__content_text">
@@ -316,9 +316,9 @@
                 <div class="documents__content_block">
                   <div style="min-height: 255px" class="documents__content_img">
                     <picture>
-                      <source type="image/webp" data-srcset="../img/dip5.webp"/>
-                      <source data-srcset="../img/dip5-middle.png, ../img/dip5.png 2x, ../img/dip5@2x.png 3x" media="(max-width: 992px)"/>
-                      <source data-srcset="../img/dip5-small.png, ../img/dip5-middle.png 2x, ../img/dip5.png 3x" media="(max-width: 500px)"/><img data-src="../img/dip5.png" data-srcset="../img/dip5@2.png 2x, ../img/dip5@3x.png 3x" alt="dip5" class="lazy img"/>
+                      <source type="image/webp" srcset="img/dip5.webp"/>
+                      <source srcset="img/dip5-middle.png, ../img/dip5.png 2x, ../img/dip5@2x.png 3x" media="(max-width: 992px)"/>
+                      <source srcset="img/dip5-small.png, ../img/dip5-middle.png 2x, ../img/dip5.png 3x" media="(max-width: 500px)"/><img src="img/dip5.png" srcset="img/dip5@2.png 2x, ../img/dip5@3x.png 3x" alt="dip5" class="lazy img"/>
                     </picture>
                   </div>
                   <div class="documents__content_text">
