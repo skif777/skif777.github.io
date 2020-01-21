@@ -55,7 +55,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:793px;
+	min-height:100vh;
 }
 .l-overlay {
     background: url(../images/overlay.png)repeat;
@@ -68,7 +68,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:730px;
+	min-height:100vh;
 }
 .banner-3{
 	background:url(../images/bg1.jpg) no-repeat center fixed;
@@ -77,7 +77,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:860px;
+	min-height:100vh;
 }
 .banner-4{
 	background:url(../images/bg3.jpg) no-repeat center fixed;
@@ -86,7 +86,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:930px;
+	min-height:100vh;
 }
 .banner-5{
 	background:url(../images/bg4.jpg) no-repeat center fixed;
@@ -95,7 +95,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:900px;
+	min-height:100vh;;
 }
 .banner-6{
 	background:url(../images/bg5.jpg) no-repeat center fixed;
@@ -104,7 +104,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:900px;
+	min-height:100vh;
 }
 h1 a.l-logo {
     font-size: 1.3em;
